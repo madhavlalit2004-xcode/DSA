@@ -111,7 +111,7 @@ Problems are organized by difficulty and pattern.
 
 ## 📌 Resources
 
-- [NeetCode](https://neetcode.io/)
+- [NeetCode](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 - [LeetCode](https://leetcode.com/)
 - [Python Docs](https://docs.python.org/3/)
 
