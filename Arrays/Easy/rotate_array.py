@@ -24,6 +24,6 @@ def rotate_array_brute(nums, k):
             nums[left], nums[right] = nums[right], nums[left]
             left += 1
             right -= 1
-    reverse(0, n)
+    reverse(0, n - 1)
     reverse(0, k - 1)
     reverse(k, n - 1)
