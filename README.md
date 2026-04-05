@@ -85,17 +85,18 @@ Problems are organized by difficulty and pattern.
 | Difficulty | Solved |
 |---|---|
 | 🟢 Easy | 28 |
-| 🟡 Medium | 5 |
+| 🟡 Medium | 6 |
 | 🔴 Hard | 0 |
 
 | Difficulty | Solved | Leetcode |
 |---|---|
 | 🟢 Easy | 14 |
-| 🟡 Medium | 3 |
+| 🟡 Medium | 4 |
 | 🔴 Hard | 0 |
 ---
 
 ## 🧩 Patterns Practiced
+
 
 - Sliding Window
 - Two Pointers
