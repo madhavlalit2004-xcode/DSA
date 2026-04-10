@@ -70,6 +70,3 @@ def three_sum_optimal(nums):
             else:
                 right -= 1
     return result
-    
-    
-print(three_sum_optimal([-1, 0, 1, 2, -1, -4]))
