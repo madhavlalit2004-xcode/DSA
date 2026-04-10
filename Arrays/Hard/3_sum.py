@@ -33,7 +33,7 @@ def three_sum_brute(nums):
                 if nums[i] + nums[j] + nums[k] == 0:
                     triplet = tuple(sorted([nums[i], nums[j], nums[k]]))
                     result.add(triplet)
-    return [list(t) for i in result]
+    return [list(t) for t in result]
 
 
 #Approach 2: Sort + Two Pointer
