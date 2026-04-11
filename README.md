@@ -86,7 +86,7 @@ Problems are organized by difficulty and pattern.
 |---|---|
 | 🟢 Easy | 28 |
 | 🟡 Medium | 10 |
-| 🔴 Hard | 4 |
+| 🔴 Hard | 5 |
 
 | Difficulty | Solved | Leetcode |
 |---|---|
