@@ -84,7 +84,7 @@ Problems are organized by difficulty and pattern.
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | 29 |
+| 🟢 Easy | 30 |
 | 🟡 Medium | 10 |
 | 🔴 Hard | 8 |
 
