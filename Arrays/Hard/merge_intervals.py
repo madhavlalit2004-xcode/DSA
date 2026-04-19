@@ -33,5 +33,3 @@ def merge_optimal(intervals):
         else:
             result[-1][1] = max(result[-1][1], interval[1])
     return result
-
-print(merge_optimal([[1, 3], [2, 6], [8, 10], [15, 18]]))
