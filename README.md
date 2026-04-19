@@ -84,14 +84,14 @@ Problems are organized by difficulty and pattern.
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | 33 |
+| 🟢 Easy | 34 |
 | 🟡 Medium | 10 |
 | 🔴 Hard | 8 |
 
 | Difficulty | Solved | Leetcode |
 |---|---|
 | 🟢 Easy | 18 |
-| 🟡 Medium | 10 |
+| 🟡 Medium | 11 |
 | 🔴 Hard | 0 |
 ---
 
