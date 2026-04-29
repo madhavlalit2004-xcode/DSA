@@ -85,13 +85,13 @@ Problems are organized by difficulty and pattern.
 | Difficulty | Solved |
 |---|---|
 | 🟢 Easy | 37 |
-| 🟡 Medium | 22 |
+| 🟡 Medium | 23 |
 | 🔴 Hard | 2 |
 
 | Difficulty | Solved | Leetcode |
 |---|---|
 | 🟢 Easy | 20 |
-| 🟡 Medium | 16 |
+| 🟡 Medium | 17 |
 | 🔴 Hard | 0 |
 ---
 
