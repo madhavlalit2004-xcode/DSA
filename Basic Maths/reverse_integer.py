@@ -39,8 +39,12 @@
 
 #Approacch 1: optimal
 def reverse_integer(x):
+    INT_MIN = -(2**31)
+    INT_MAX = 2**31 - 1
+
     ans = 0
     sign = 1
+
     if x < 0:
         sign = -1
         x = -x
@@ -48,4 +52,8 @@ def reverse_integer(x):
         n = x % 10
         ans = ans * 10 + n
         x //= 10
-    return sign * ans
+
+    ans *= sign
+    if ans < INT_MIN or ans > INT_MAX:
+        return 0
+    return ans
