@@ -56,4 +56,4 @@ def reverse_integer(x):
     ans *= sign
     if ans < INT_MIN or ans > INT_MAX:
         return 0
-    return ans
+    return
