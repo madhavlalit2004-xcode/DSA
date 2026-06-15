@@ -52,3 +52,4 @@ def agressive_cows_optimal(stalls, k):
         else:
             high = mid - 1
     return ans
+
