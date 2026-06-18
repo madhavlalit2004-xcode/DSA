@@ -27,6 +27,6 @@ class Node:
         self.data = data
         self.next = next
 
-    def del_node(self, node):
-        node.val = node.val.next
-        node.next = node.next.next
+def del_node(self, node):
+    node.val = node.val.next
+    node.next = node.next.next
