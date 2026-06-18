@@ -22,15 +22,15 @@ class Node:
         self.data = data
         self.next = next
 
-def insert_at_head_optimal(head, value):
-    new_node = Node(value)
-    new_node.next = head
-    return new_node
+    def insert_at_head_optimal(head, value):
+        new_node = Node(value)
+        new_node.next = head
+        return new_node
 
-def print_list(head: None) -> None:
-    elements = []
-    current = head
-    while current:
-        elements.append(str(current.data))
-        current = current.next
-    print(" -> ".join(elements) if elements else "(empty)")
+    def print_list(head: None) -> None:
+        elements = []
+        current = head
+        while current:
+            elements.append(str(current.data))
+            current = current.next
+        print(" -> ".join(elements) if elements else "(empty)")
