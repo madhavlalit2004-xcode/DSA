@@ -97,7 +97,6 @@ Problems are organized by difficulty and pattern.
 
 ## 🧩 Patterns Practiced
 
-
 - Sliding Window
 - Two Pointers
 - Fast & Slow Pointers
