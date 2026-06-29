@@ -1,0 +1,71 @@
+# ============================================================
+# LeetCode 1967 - Number of Strings That Appear as Substrings in Word
+# ============================================================
+# Given:
+#   - patterns: a list of strings
+#   - word: a string
+#
+# Return the number of strings in 'patterns' that appear as
+# a substring of 'word'.
+#
+# A substring is a contiguous sequence of characters inside
+# another string.
+#
+# Example:
+#   Input:
+#       patterns = ["a", "abc", "bc", "d"]
+#       word = "abc"
+#   Output:
+#       3
+#
+#   Explanation:
+#       "a"   -> present ✓
+#       "abc" -> present ✓
+#       "bc"  -> present ✓
+#       "d"   -> absent ✗
+#
+# ------------------------------------------------------------
+#
+# Example:
+#   Input:
+#       patterns = ["a", "b", "c"]
+#       word = "aaaaab"
+#   Output:
+#       2
+#
+#   Explanation:
+#       "a" -> present ✓
+#       "b" -> present ✓
+#       "c" -> absent ✗
+#
+# ------------------------------------------------------------
+#
+# Key Insight:
+#   Iterate through each pattern and simply check whether it
+#   exists inside 'word' using Python's substring operator:
+#
+#       pattern in word
+#
+#   Count every pattern that returns True.
+#
+# Time Complexity:
+#   O(n × m × k) (worst case)
+#   where:
+#       n = number of patterns
+#       m = length of word
+#       k = average length of a pattern
+#
+#   (Python internally uses an optimized substring search,
+#   making this efficient for the given constraints.)
+#
+# Space Complexity:
+#   O(1)
+# ============================================================
+
+#Approach 1: Optimal
+def num_of_substrings_optimal(pattern, word):
+    count = 0
+    for i in pattern:
+        if i in word:
+            count += 1
+    return count
