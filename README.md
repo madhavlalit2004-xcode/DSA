@@ -90,7 +90,7 @@ Problems are organized by difficulty and pattern.
 
 | Difficulty | Solved | Leetcode |
 |---|---|
-| 🟢 Easy | 43 |
+| 🟢 Easy | 45 |
 | 🟡 Medium | 36 |
 | 🔴 Hard | 3 |
 ---
